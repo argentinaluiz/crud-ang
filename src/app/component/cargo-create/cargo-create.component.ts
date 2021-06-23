@@ -17,7 +17,7 @@ export class CargoCreateComponent implements OnInit {
   constructor(public cargoService:CargoService) { }
 
 create():void{
-
+  this.cargoService.createCargo(this.cargo).subscribe(() => alert('Sucesso'));
 }
 
 

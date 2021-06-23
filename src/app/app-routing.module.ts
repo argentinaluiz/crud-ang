@@ -40,14 +40,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
   providers: [CargoService],
-  declarations: [
-
-
-    CargoCreateComponent,
-      CargosUpdateComponent,
-      CargosDeleteComponent,
-      JasmineComponent
-  ],
 
 
 })
