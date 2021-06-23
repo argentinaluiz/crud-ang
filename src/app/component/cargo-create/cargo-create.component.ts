@@ -10,8 +10,6 @@ import { Cargo } from './../../model/cargo';
 })
 export class CargoCreateComponent implements OnInit {
 
-  public name:string= "";
-
   public cargo:Cargo = new Cargo(0,"");
 
   public cargos: Cargo[] = new Array();
